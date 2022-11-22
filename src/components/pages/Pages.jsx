@@ -6,8 +6,8 @@ import { Home } from "../home/Home";
 import About from "./About";
 import Blog from "./Blog";
 import { Contact } from "./Contact"
-// import { Portfolio } from "./Portfolio"
-// import { Services } from "./Services"
+import { Portfolio } from "./Portfolio"
+import { Services } from "./Services"
 // import { Testimonials } from "./Testimonials"
 export const Pages = () => {
   return (
@@ -17,8 +17,8 @@ export const Pages = () => {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
-          {/* <Route exact path='/services' component={Services} /> */}
-          {/* <Route exact path='/portfolio' component={Portfolio} /> */}
+          <Route exact path='/services' component={Services} />
+          <Route exact path='/portfolio' component={Portfolio} />
           {/* <Route exact path='/testimonials' component={Testimonials} /> */}
           <Route exact path="/blog" component={Blog} />
           <Route exact path='/contact' component={Contact} />

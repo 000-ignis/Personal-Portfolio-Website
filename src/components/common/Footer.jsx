@@ -11,7 +11,7 @@ const Footer = () => {
           </>
         ))}
 
-        <p data-aos="zoom-in">All Right Reserved 2022</p>
+        <p data-aos="zoom-in">Created by ignis T_T ©️ All Right Reserved 2022</p>
       </footer>
     </>
   );

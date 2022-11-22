@@ -5,11 +5,11 @@
   box-sizing: border-box;
 }
 :root {
-  --primaryBackground: #212222;
-  --secondaryBackground: #2f3030;
-  --primaryColor: #e0a80d;
-  --greyDark: #7d8792;
-  --headingColor: #2d2e2e;
+  --primaryBackground: #001253;
+  --secondaryBackground: #FD841F;
+  --primaryColor: #3E6D9C;
+  /* --greyDark: #7d8792; */
+  --headingColor: #E14D2A;
   --white: #fff;
   --black: #000;
   --sliver: #bac8d3;
@@ -67,6 +67,14 @@ button {
 .primaryBtn {
   background: none;
   border: 2px solid var(--primaryColor);
+  transition: ease-in-out .4s;
+}
+
+.primaryBtn:hover {
+  background: #fff;
+  border: none;
+  color: var(--primaryBackground);
+  transform: scale(1.1);
 }
 /*---------header-------------*/
 header {
