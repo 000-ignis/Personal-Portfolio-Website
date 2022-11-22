@@ -21,9 +21,9 @@ export const Hero = () => {
               />
             </h1>
             <p data-aos="fade-left">{val.desc}</p>
-            <button className="primaryBtn" data-aos="fade-up-right">
+            {/* <button className="primaryBtn" data-aos="fade-up-right">
               Download CV
-            </button>
+            </button> */}
           </div>
         ))}
       </section>
